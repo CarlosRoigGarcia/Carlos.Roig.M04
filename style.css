@@ -1,0 +1,45 @@
+body {
+    
+    background-color: #F2FF33 
+ }
+h1 {
+  text-align: center;
+    color: #009688;
+}
+h2 {
+  text-align: left;
+    color: #009688;
+}
+
+.container{
+  margin: 20px;
+
+}
+
+
+div p {
+  margin:25px;
+  padding: 50px;
+  border-style: groove;
+  border-radius: 5px;
+  border-color: #009688;
+}
+
+.intro p {
+border-color: #33FFDB;
+;
+ 
+}
+
+.branches h2 {
+  color: #FF00D1; 
+}
+
+.branches p {
+  border-color: #FF00D1; 
+}
+
+.remot p {
+border-color: #EC2A0F;  
+}
+
