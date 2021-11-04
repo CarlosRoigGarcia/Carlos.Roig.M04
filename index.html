@@ -1,29 +1,36 @@
-<body>
-    <header>
-        <nav>
-        <ul>
-            <li>
-                <a href="http://google.com">Vamos a otra página url</a>
-            </li>
-            <li>
-                <a target="_blank" href="http://google.com">Abrimos la otra página en otra pestaña</a>
-            </li>
-            <li>
-                <a href="#ejemplo">Navegamos dentro de nuestra propia página y vamos a una zona especifica</a>
-            </li>
-            <li>
-                <a href="../ejemplos/12 - hgroup.html">Navegamos dentro de nuestro directorio</a>
-            </li>
-        </nav>
-        </ul>
-    </header>
-    <section>
-        <h4>Esta zona no quiero que vengas</h4>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Projecte web compartit </title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>GIT</h1>
+      <div class="intro">
+        <h2>Introducció</h2>
+        <p>El git es una eina de gestió de fitxers que ens permet fer modificacions manualment amb diverses ordres. Entre aquestes ordres tenima el: git init(ens permet crear un repestori git a un directori), git add name (ens permet afegir un arxiu al repestori git), git commit -m "Commit message"(Per desar els canvis) o git commit -a -m "Commit message"(Per fer un add i un commit a la vegada) i per ùltim el git status ens permet veure l'estat del repestori.</p>
+      </div>
+      <div class="branches">
+        <h2>Branques</h2>
         <p>
-            Lorem Ipsum
-        </p>
-    </section>
-    <section id="ejemplo">
-        <p>Esta es la zona que quiero que llegues desde el menú</p>
-    </section>
-</body>
+        Qualsevol sistema de versions té un mecanisme per suportar el que es coneix com l'ús de branques.
+
+És un dels punts forts del Git. 
+
+Cada vegada que fem un commit Git guarda una sèrie d'instantànies del treball preparat. Aquestes instantànies, guarden metadates com ara l'autor i el missatge amb el que acompanyem el commit.
+<br> - $ git branch testing
+<br> - $ git checkout testing
+<br> - $ git commit -a -m "made a ghange"
+<br> - $ git checkout master
+
+</p>
+      </div>
+      <div class="remot">
+        <h2>Remot</h2>
+        <p>Per treballar en remot, necessitem primer un repositori remot. Podem utitlizar moltes plataformes. En aquest cas treballarem amb GitLab. Amb la comanda $git remote add origin URL_GIT podem afegir un remot a un repositori. Origin és el nom del remot. Per lincar la branca master amb la branca master del origin, utilitzem $git branch --set-upstream master origin/master. Per descarregar un repositori, posem $git clone URL_GIT. Per pujar els commits, utilitzem git push. Per descarregar els commits, git pull.</p></div>
+      </div>
+   </div>
+  </body>
+</html>
